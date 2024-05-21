@@ -2,7 +2,6 @@ name: New CTF Challenge
 description: File a CTF Challenge.
 title: "[Challenge]: "
 labels: ["challenge"]
-assignees:
 body:
   - type: markdown
     attributes:
