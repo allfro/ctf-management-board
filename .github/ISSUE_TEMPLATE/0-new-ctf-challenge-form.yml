@@ -3,16 +3,12 @@ description: File a CTF Challenge.
 title: "[CHAL]: "
 labels: ["challenge"]
 body:
-  - type: markdown
+  - type: textarea
+    id: description
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Challenge Description
+      description: What is the challenge about?
+      placeholder: Paste the challenge description here.
     validations:
       required: false
   - type: textarea
